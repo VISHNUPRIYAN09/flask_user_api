@@ -1,0 +1,43 @@
+Sample Output:
+
+json
+{
+  "message": "User created",
+  "user": {
+    "id": "1",
+    "name": "John",
+    "email": "john@example.com"
+  }
+}
+
+
+json
+{
+  "1": {
+    "id": "1",
+    "name": "John",
+    "email": "john@example.com"
+  }
+}
+
+
+json
+{
+  "message": "User updated",
+  "user": {
+    "id": "1",
+    "name": "John Updated",
+    "email": "john_new@example.com"
+  }
+}
+
+
+json
+{
+  "message": "User deleted",
+  "user": {
+    "id": "1",
+    "name": "John Updated",
+    "email": "john_new@example.com"
+  }
+}
